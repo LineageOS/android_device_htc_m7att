@@ -28,7 +28,7 @@
 -include device/htc/m7-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := m7att
+TARGET_OTA_ASSERT_DEVICE := m7,m7att
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := m7
